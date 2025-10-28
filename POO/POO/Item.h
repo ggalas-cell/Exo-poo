@@ -5,9 +5,9 @@ class Item
 private:
 	std::string name;
 	int effect;
+	int price;
 public:
-	Item(std::string n,int d) :name(n), effect (d) {}
-
+	Item(std::string n,int p,int e) :name(n),price(p), effect(e) {}
 };
 
 class miniPotion
@@ -15,7 +15,7 @@ class miniPotion
 private:
 	Item item;
 public:
-	miniPotion() : item("Mini potion", 10) {}
+	miniPotion() : item("Mini potion",5, 10) {}
 };
 
 class Potion
@@ -23,7 +23,7 @@ class Potion
 private:
 	Item item;
 public:
-	Potion() : item("Potion", 30) {}
+	Potion() : item("Potion",20, 30) {}
 };
 
 class superPotion
@@ -31,6 +31,6 @@ class superPotion
 private:
 	Item item;
 public:
-	superPotion() : item("Super potion", 50) {}
+	superPotion() : item("Super potion",40, 50) {}
 };
 
