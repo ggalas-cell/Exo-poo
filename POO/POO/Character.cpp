@@ -1,8 +1,11 @@
 #include "Character.h"
+#include <iostream>
 
-void Display(Player)
+void Display(const Player)
 {
-
-
+	std::cout << "";
 }
+
+
+
 

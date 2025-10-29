@@ -18,7 +18,17 @@ private:
 	Character charac;
 public:
 	Player() : charac("Player",50,200){}
+	void Display(const Player)
+	{
+		std::cout<<  <<std::endl;
+	}
 };
 
-void Display(Player);
- 
+void HealCharac(Player)
+{
+	
+}
+void AddItem(const Item& item)
+{
+	inventory.push_back(item);
+}

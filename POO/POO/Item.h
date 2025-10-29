@@ -6,7 +6,12 @@ private:
 	std::string name;
 	int effect;
 	int price;
+	
 public:
+	void Heal(Item)
+	{
+
+	}
 	Item(std::string n,int p,int e) :name(n),price(p), effect(e) {}
 };
 
