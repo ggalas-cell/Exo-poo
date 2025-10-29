@@ -8,12 +8,13 @@ private:
 	int dmg;
 	int Hp;
 public:
-	character(const std::string& n, int d, int h): name(n), dmg(d), Hp(h){}
+	character(const std::string& n, int d, int h);
 
 	void attack()
 	{
 		std::cout << "Attaque de base" << std::endl;
 	}
+	// attack
 };
 
 
