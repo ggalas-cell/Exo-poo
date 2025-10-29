@@ -6,15 +6,19 @@ class character
 private:
 	std::string name;
 	int dmg;
-	int Hp;
+	int currentHp;
+	int maxHp;
 public:
-	character(const std::string& n, int d, int h);
+	character(const std::string& n, int d, int ch,int mh);
 
-	void attack()
+	virtual void attack()
 	{
 		std::cout << "Attaque de base" << std::endl;
 	}
+	virtual ~character(){}
 	// attack
+	void death(int Hp);
+
 };
 
 

@@ -4,7 +4,8 @@ class warrior : public character
 {
 public:
 
-	void attack()
+	;
+	void attack() override
 	{
 		std::cout << "Attaque du Warrior" << std::endl;
 	}
