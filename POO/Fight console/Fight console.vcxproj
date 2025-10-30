@@ -124,12 +124,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="character.h" />
+    <ClInclude Include="maximegoblin.h" />
     <ClInclude Include="warrior.h" />
     <ClInclude Include="wizard.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="character.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="maximegoblin.cpp" />
     <ClCompile Include="warrior.cpp" />
     <ClCompile Include="wizard.cpp" />
   </ItemGroup>
