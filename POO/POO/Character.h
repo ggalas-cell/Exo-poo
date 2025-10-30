@@ -12,15 +12,15 @@ public:
 	Character(std::string n, int ch,int mh) : name(n), currentHealth(ch),maxHealth(mh){}
 };
 
-class Player
+class Player : public character
 {
 private:
 	Character charac;
 public:
-	Player() : charac("Player",50,200){}
+	charac("Player",50,200){} // voir cours partie 2
 	void Display(const Player)
 	{
-		std::cout<<  <<std::endl;
+		std::cout<< charac <<std::endl;
 	}
 };
 
