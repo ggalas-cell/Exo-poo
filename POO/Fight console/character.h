@@ -8,6 +8,7 @@ private:
 	int dmg;
 	int currentHp;
 	int maxHp;
+// 	int speedAttack;
 public:
 	character(const std::string& n, int d, int ch,int mh);
 
@@ -18,8 +19,6 @@ public:
 	virtual ~character(){}
 	// attack
 	void death(int Hp);
-
+	void display()const;
+    // void heal()
 };
-
-
-
