@@ -18,7 +18,7 @@ public:
 	}
 	virtual ~character(){}
 	// attack
-	void death(int Hp);
+	//void death(int Hp);
 	void display()const;
     // void heal()
 };

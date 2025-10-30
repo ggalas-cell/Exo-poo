@@ -9,4 +9,7 @@ public:
 	{
 		std::cout << "Attaque du Warrior" << std::endl;
 	}
+	
 };
+	
+

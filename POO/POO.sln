@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "POO", "POO\POO.vcxproj", "{
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Fight console", "Fight console\Fight console.vcxproj", "{E38ADCA4-F4E3-4480-A407-AB0730A2F77E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Fight console manage", "Fight console manage\Fight console manage.vcxproj", "{DE94A296-5C87-40C3-B7C9-481745C4B4AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{E38ADCA4-F4E3-4480-A407-AB0730A2F77E}.Release|x64.Build.0 = Release|x64
 		{E38ADCA4-F4E3-4480-A407-AB0730A2F77E}.Release|x86.ActiveCfg = Release|Win32
 		{E38ADCA4-F4E3-4480-A407-AB0730A2F77E}.Release|x86.Build.0 = Release|Win32
+		{DE94A296-5C87-40C3-B7C9-481745C4B4AA}.Debug|x64.ActiveCfg = Debug|x64
+		{DE94A296-5C87-40C3-B7C9-481745C4B4AA}.Debug|x64.Build.0 = Debug|x64
+		{DE94A296-5C87-40C3-B7C9-481745C4B4AA}.Debug|x86.ActiveCfg = Debug|Win32
+		{DE94A296-5C87-40C3-B7C9-481745C4B4AA}.Debug|x86.Build.0 = Debug|Win32
+		{DE94A296-5C87-40C3-B7C9-481745C4B4AA}.Release|x64.ActiveCfg = Release|x64
+		{DE94A296-5C87-40C3-B7C9-481745C4B4AA}.Release|x64.Build.0 = Release|x64
+		{DE94A296-5C87-40C3-B7C9-481745C4B4AA}.Release|x86.ActiveCfg = Release|Win32
+		{DE94A296-5C87-40C3-B7C9-481745C4B4AA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

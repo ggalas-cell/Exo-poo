@@ -9,4 +9,5 @@ public:
 	{
 		std::cout << "Attaque du Wizard" << std::endl;
 	}
+
 };
