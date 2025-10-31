@@ -5,7 +5,7 @@
 #include "maximegoblin.h"
 #include <vector>
 
-int main()
+int amain()
 {
 	character warrio("Borg", 20, 500, 500);
 	character wizard ("The fool", 30, 300, 300);
