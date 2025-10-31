@@ -124,14 +124,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="character.h" />
+    <ClInclude Include="game.h" />
     <ClInclude Include="maximegoblin.h" />
+    <ClInclude Include="player.h" />
     <ClInclude Include="warrior.h" />
     <ClInclude Include="wizard.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="character.cpp" />
+    <ClCompile Include="game.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="maximegoblin.cpp" />
+    <ClCompile Include="player.cpp" />
     <ClCompile Include="warrior.cpp" />
     <ClCompile Include="wizard.cpp" />
   </ItemGroup>
